@@ -6,8 +6,8 @@ import getpass
 class client:
     def __init__(self):
         self.mssg = ""
-        self.host = input("localhost : ")
-        self.port = input("port : ")
+        self.host ="localhost"
+        self.port = 4444
     def sck(self):
         self.s = socket.socket()
         self.conn = False
